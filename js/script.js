@@ -74,7 +74,8 @@ document.addEventListener("DOMContentLoaded", () => {
             "curso": "Ofrecemos un curso de Git que cubre desde lo básico hasta temas avanzados.",
             "inscripción": "Para inscribirte, completa el formulario de inscripción en la sección correspondiente.",
             "adiós": "¡Adiós! Espero haberte ayudado.",
-            "gracias": "¡De nada! Estoy aquí para ayudarte."
+            "gracias": "¡De nada! Estoy aquí para ayudarte.",
+            "dame el codigo de acceso": "el codigo es 1gitintegra2024Q"
         };
         return responses[message.toLowerCase()] || "Lo siento, no entiendo tu pregunta. ¿Podrías reformularla?";
     }
